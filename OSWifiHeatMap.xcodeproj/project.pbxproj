@@ -14,6 +14,8 @@
 		2B6B45201CC7EE4400C152F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B451E1CC7EE4400C152F7 /* LaunchScreen.storyboard */; };
 		2B6B452B1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B452A1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift */; };
 		2B6B45361CC7F16000C152F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6B45351CC7F16000C152F7 /* MapKit.framework */; };
+		635C8E92CD967390BE0F2349 /* libPods-OSWifiHeatMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C57ABF8FAC1FB44DA34D68 /* libPods-OSWifiHeatMap.a */; };
+		6AB8F69F4D71AF77DF571EDD /* libPods-OSWifiHeatMapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D44299C505F7BE4B7F5D07 /* libPods-OSWifiHeatMapTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099D6BADB20A48E42636C0A7 /* Pods-OSWifiHeatMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMap/Pods-OSWifiHeatMap.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6B45121CC7EE4300C152F7 /* OSWifiHeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSWifiHeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6B45151CC7EE4400C152F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B6B45171CC7EE4400C152F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		2B6B452A1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSWifiHeatMapTests.swift; sourceTree = "<group>"; };
 		2B6B452C1CC7EE4400C152F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6B45351CC7F16000C152F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		36C57ABF8FAC1FB44DA34D68 /* libPods-OSWifiHeatMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSWifiHeatMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A0AAF6FB519BFA4768B287 /* Pods-OSWifiHeatMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80D44299C505F7BE4B7F5D07 /* libPods-OSWifiHeatMapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSWifiHeatMapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F17A9DE301B2A5429B31429 /* Pods-OSWifiHeatMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMap/Pods-OSWifiHeatMap.release.xcconfig"; sourceTree = "<group>"; };
+		951F088B3FC3F099D4EE835D /* Pods-OSWifiHeatMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B6B45361CC7F16000C152F7 /* MapKit.framework in Frameworks */,
+				635C8E92CD967390BE0F2349 /* libPods-OSWifiHeatMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,19 +62,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB8F69F4D71AF77DF571EDD /* libPods-OSWifiHeatMapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		239ED8053930709F020153B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099D6BADB20A48E42636C0A7 /* Pods-OSWifiHeatMap.debug.xcconfig */,
+				8F17A9DE301B2A5429B31429 /* Pods-OSWifiHeatMap.release.xcconfig */,
+				61A0AAF6FB519BFA4768B287 /* Pods-OSWifiHeatMapTests.debug.xcconfig */,
+				951F088B3FC3F099D4EE835D /* Pods-OSWifiHeatMapTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2B6B45091CC7EE4300C152F7 = {
 			isa = PBXGroup;
 			children = (
-				2B6B45351CC7F16000C152F7 /* MapKit.framework */,
 				2B6B45141CC7EE4400C152F7 /* OSWifiHeatMap */,
 				2B6B45291CC7EE4400C152F7 /* OSWifiHeatMapTests */,
 				2B6B45131CC7EE4300C152F7 /* Products */,
+				239ED8053930709F020153B0 /* Pods */,
+				7688FDE9F026D77D5ADE04AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +122,16 @@
 			path = OSWifiHeatMapTests;
 			sourceTree = "<group>";
 		};
+		7688FDE9F026D77D5ADE04AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6B45351CC7F16000C152F7 /* MapKit.framework */,
+				36C57ABF8FAC1FB44DA34D68 /* libPods-OSWifiHeatMap.a */,
+				80D44299C505F7BE4B7F5D07 /* libPods-OSWifiHeatMapTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B6B452F1CC7EE4400C152F7 /* Build configuration list for PBXNativeTarget "OSWifiHeatMap" */;
 			buildPhases = (
+				2758B37EC393AAA61C8F065F /* 📦 Check Pods Manifest.lock */,
 				2B6B450E1CC7EE4300C152F7 /* Sources */,
 				2B6B450F1CC7EE4300C152F7 /* Frameworks */,
 				2B6B45101CC7EE4300C152F7 /* Resources */,
+				FBC221D8945B576398B9F8D2 /* 📦 Embed Pods Frameworks */,
+				5B8FE727328D6808FA14BAB9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B6B45321CC7EE4400C152F7 /* Build configuration list for PBXNativeTarget "OSWifiHeatMapTests" */;
 			buildPhases = (
+				69C0A652F20081008E78403B /* 📦 Check Pods Manifest.lock */,
 				2B6B45221CC7EE4400C152F7 /* Sources */,
 				2B6B45231CC7EE4400C152F7 /* Frameworks */,
 				2B6B45241CC7EE4400C152F7 /* Resources */,
+				A3A8EDB57D210287B53E509E /* 📦 Embed Pods Frameworks */,
+				32411372BD96E791820ABE21 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2758B37EC393AAA61C8F065F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32411372BD96E791820ABE21 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B8FE727328D6808FA14BAB9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSWifiHeatMap/Pods-OSWifiHeatMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C0A652F20081008E78403B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A8EDB57D210287B53E509E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC221D8945B576398B9F8D2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSWifiHeatMap/Pods-OSWifiHeatMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B6B450E1CC7EE4300C152F7 /* Sources */ = {
@@ -331,6 +462,7 @@
 		};
 		2B6B45301CC7EE4400C152F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099D6BADB20A48E42636C0A7 /* Pods-OSWifiHeatMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSWifiHeatMap/Info.plist;
@@ -342,6 +474,7 @@
 		};
 		2B6B45311CC7EE4400C152F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F17A9DE301B2A5429B31429 /* Pods-OSWifiHeatMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSWifiHeatMap/Info.plist;
@@ -353,6 +486,7 @@
 		};
 		2B6B45331CC7EE4400C152F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A0AAF6FB519BFA4768B287 /* Pods-OSWifiHeatMapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OSWifiHeatMapTests/Info.plist;
@@ -365,6 +499,7 @@
 		};
 		2B6B45341CC7EE4400C152F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951F088B3FC3F099D4EE835D /* Pods-OSWifiHeatMapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OSWifiHeatMapTests/Info.plist;
