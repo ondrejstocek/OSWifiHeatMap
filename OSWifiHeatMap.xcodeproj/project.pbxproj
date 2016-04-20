@@ -13,6 +13,7 @@
 		2B6B451D1CC7EE4400C152F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B451C1CC7EE4400C152F7 /* Assets.xcassets */; };
 		2B6B45201CC7EE4400C152F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B451E1CC7EE4400C152F7 /* LaunchScreen.storyboard */; };
 		2B6B452B1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B452A1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift */; };
+		2B6B45361CC7F16000C152F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6B45351CC7F16000C152F7 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B6B45261CC7EE4400C152F7 /* OSWifiHeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSWifiHeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6B452A1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSWifiHeatMapTests.swift; sourceTree = "<group>"; };
 		2B6B452C1CC7EE4400C152F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6B45351CC7F16000C152F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6B45361CC7F16000C152F7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		2B6B45091CC7EE4300C152F7 = {
 			isa = PBXGroup;
 			children = (
+				2B6B45351CC7F16000C152F7 /* MapKit.framework */,
 				2B6B45141CC7EE4400C152F7 /* OSWifiHeatMap */,
 				2B6B45291CC7EE4400C152F7 /* OSWifiHeatMapTests */,
 				2B6B45131CC7EE4300C152F7 /* Products */,
@@ -390,6 +394,7 @@
 				2B6B45311CC7EE4400C152F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6B45321CC7EE4400C152F7 /* Build configuration list for PBXNativeTarget "OSWifiHeatMapTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				2B6B45341CC7EE4400C152F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
