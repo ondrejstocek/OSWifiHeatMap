@@ -41,6 +41,8 @@
 		2B6B452A1CC7EE4400C152F7 /* OSWifiHeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSWifiHeatMapTests.swift; sourceTree = "<group>"; };
 		2B6B452C1CC7EE4400C152F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6B45351CC7F16000C152F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B6B45371CC7FD6000C152F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		36C57ABF8FAC1FB44DA34D68 /* libPods-OSWifiHeatMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSWifiHeatMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A0AAF6FB519BFA4768B287 /* Pods-OSWifiHeatMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F17A9DE301B2A5429B31429 /* Pods-OSWifiHeatMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMap/Pods-OSWifiHeatMap.release.xcconfig"; sourceTree = "<group>"; };
 		951F088B3FC3F099D4EE835D /* Pods-OSWifiHeatMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSWifiHeatMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSWifiHeatMapTests/Pods-OSWifiHeatMapTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		7688FDE9F026D77D5ADE04AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B6B45371CC7FD6000C152F7 /* CoreLocation.framework */,
 				2B6B45351CC7F16000C152F7 /* MapKit.framework */,
 				C6F995429DF5F2E186C1967A /* Pods_OSWifiHeatMap.framework */,
 				C04828B59BCA544ED0E4F3A4 /* Pods_OSWifiHeatMapTests.framework */,

@@ -15,9 +15,18 @@ class ViewController: UIViewController, MKMapViewDelegate {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		self.mapView.showsUserLocation = true
 	}
 	
 	// MARK: - Map View Delegate
+
+	func mapView(mapView: MKMapView, didUpdateUserLocation userLocation: MKUserLocation) {
+		if let location = userLocation.location {
+			let region = MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200)
+			mapView.setRegion(region, animated: true)
+		}
+	}
 	
 //	func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
 //	}
