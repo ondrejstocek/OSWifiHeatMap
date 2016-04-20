@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -27,9 +26,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1vh-86-X53" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="3iH-7Y-v0t"/>
+                            <constraint firstItem="1vh-86-X53" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3iH-7Y-v0t"/>
                             <constraint firstItem="1vh-86-X53" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="BJZ-E3-qNj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1vh-86-X53" secondAttribute="trailing" constant="-20" id="gE8-Px-5wr"/>
+                            <constraint firstAttribute="trailing" secondItem="1vh-86-X53" secondAttribute="trailing" id="gE8-Px-5wr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1vh-86-X53" secondAttribute="bottom" id="yn2-PZ-SnR"/>
                         </constraints>
                     </view>
