@@ -1,0 +1,6 @@
+framework module Pods_OSWifiHeatMap {
+  umbrella header "Pods-OSWifiHeatMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
