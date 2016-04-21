@@ -13,13 +13,15 @@ import CoreLocation
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
-	var locationManager: CLLocationManager?
+	
+	lazy var locationManager: CLLocationManager = {
+		return CLLocationManager()
+	}()
 
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		
-		self.locationManager = CLLocationManager()
-		self.locationManager?.requestWhenInUseAuthorization()
+		locationManager.requestWhenInUseAuthorization()
 
 		return true
 	}
