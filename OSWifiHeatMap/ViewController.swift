@@ -49,19 +49,5 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
         return DTMHeatmapRenderer(overlay: overlay)
-    }
-	
-    func inverseDistanceWeight(target: MKMapPoint, mapPoints: [(MKMapPoint, Double)], exp: Double = 1.0) -> Double {
-        var total: Double = 0
-        var sum: Double = 0
-        
-        for (point, value) in mapPoints {
-            let distance = sqrt(pow(target.x - point.x, 2) + pow(target.y - point.y, 2))
-            let weight = 1 / pow(distance, exp)
-            total += value * weight
-            sum += weight
-        }
-        
-        return total / sum
-    }
+    }	
 }
