@@ -11,13 +11,13 @@
 @implementation NSValue (MKMapPoint)
 
 + (NSValue *)valueWithMKMapPoint:(MKMapPoint)mapPoint {
-	return [NSValue value:&mapPoint withObjCType:@encode(MKMapPoint)];
+    return [NSValue value:&mapPoint withObjCType:@encode(MKMapPoint)];
 }
 
 - (MKMapPoint)MKMapPointValue {
-	MKMapPoint mapPoint;
-	[self getValue:&mapPoint];
-	return mapPoint;
+    MKMapPoint mapPoint;
+    [self getValue:&mapPoint];
+    return mapPoint;
 }
 
 @end
